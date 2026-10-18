@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Runner Workflow"
+  short_description: "Run projects reproducibly and record workflows"
+  default_prompt: "Use $reproducible-project-runner to run this project reproducibly and create its workflow record."

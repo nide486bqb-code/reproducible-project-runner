@@ -1,0 +1,20 @@
+{
+  "name": "reproducible-project-runner",
+  "version": "0.1.1",
+  "license": "MIT",
+  "entrypoints": {
+    "skill": "SKILL.md",
+    "create_workflow": "scripts/create_workflow.py",
+    "audit_workflow": "scripts/audit_workflow.py",
+    "generic_agent": "adapters/generic/AGENT_INSTRUCTIONS.md",
+    "codex_adapter": "adapters/codex/agents/openai.yaml"
+  },
+  "runtime": "Python 3.9 or newer; standard library only",
+  "ci": ".github/workflows/test.yml",
+  "generated_files_excluded": [
+    "__pycache__/",
+    "*.pyc",
+    "project workflow records",
+    "local runtime configuration"
+  ]
+}
