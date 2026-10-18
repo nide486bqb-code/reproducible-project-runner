@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 - 2026-10-18
+
+- Expanded the human-facing README with installation, quick-start, verification, gotchas, layout, and related-convention sections.
+- Added Agent Skills compatibility metadata and GitHub status badges.
+
 ## 0.1.1 - 2026-10-18
 
 - Reject invalid calendar dates instead of accepting any eight digits.

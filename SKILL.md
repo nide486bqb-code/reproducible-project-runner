@@ -1,6 +1,10 @@
 ---
 name: reproducible-project-runner
 description: Run, rerun, validate, and document local projects reproducibly across Python, ArcPy, R, JavaScript, PowerShell, Google Earth Engine, GIS, figures, and mixed-language workflows. Use when an agent works in a user-supplied project directory, executes or overwrites outputs, records commands and environments, creates a run manifest, or must leave a current WORKFLOW.md file that can be reused without chat history.
+license: MIT
+compatibility: Requires Python 3.9 or newer for the bundled scripts; ArcPy is optional and must be supplied by the host environment.
+metadata:
+  version: "0.1.2"
 ---
 
 # Project Runner Workflow
